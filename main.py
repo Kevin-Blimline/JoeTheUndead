@@ -27,4 +27,4 @@ async def ShootMason(ctx):
     await ctx.send('*BANG*')
     await ctx.send(myid + " has died")
     
-client.run('')
+client.run('secrets.TOKEN')
