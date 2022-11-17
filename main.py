@@ -27,4 +27,4 @@ async def ShootMason(ctx):
     await ctx.send('*BANG*')
     await ctx.send(myid + " has died")
     
-client.run('MTA0MjYxMjA0OTIwNjgzNzI5OQ.GT8jYd.gx9QwxblyGYE_-Jhh5ZfDYLi7OLiGDyxecj7m8')
+client.run('')
