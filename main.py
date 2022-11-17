@@ -8,7 +8,11 @@ Created on Wed Nov 16 20:57:37 2022
 import discord
 from discord.ext import commands
 
-client = commands.Bot(command_prefix = '!')
+intents = discord.Intents.default()
+intents.message_content = True
+client = discord.Client(intents=intents)
+
+client = commands.Bot(command_prefix='!',intents=intents)
 
 @client.event
 async def on_ready():
